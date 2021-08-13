@@ -1,0 +1,33 @@
+.visually-hidden:not(:focus):not(:active) {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+html {
+	font-size: 10px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	width: calc(100% - 100px);
+	max-width: 1170px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
+}
+body, p, span, ol, ul {
+	font-family: 'robotoregular';
+	font-weight: normal;
+	font-size: 1.2rem;
+	color: #252525;
+	line-height: 1.2;
+}

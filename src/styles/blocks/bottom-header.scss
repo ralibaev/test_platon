@@ -1,0 +1,37 @@
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  height: 34px;
+  margin-top: 49px;
+  border-radius: 7px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .25);
+  overflow: hidden;
+  &__search {
+    min-width: 39px;
+    padding: 0;
+    border: none;
+    background: url('../img/search-icon.png') center no-repeat #ffcc00;
+    cursor: pointer;
+    &:hover {opacity: 0.7;}
+  }
+  &__nav {
+    width: 100%;
+    background-color: black;
+  }
+  &__sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'robotobold';
+    font-size: 1.4rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 0 15px;
+    background-color: #ffcc00;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+}
